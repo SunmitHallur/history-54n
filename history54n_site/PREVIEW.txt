@@ -1,0 +1,8 @@
+Preview this folder only (not website_v2 or Econ website):
+
+  cd "$(dirname "$0")" && python3 -m http.server 8000
+
+Then open http://localhost:8000/
+If the nav does not show Thesis / Antebellum / Freedom, you are in the wrong directory.
+
+Each build sets styles.css?v=<timestamp> so a normal refresh loads new CSS.
