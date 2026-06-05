@@ -1,33 +1,31 @@
-# Image Credits
+# Image credits (maintainer reference)
 
-All images used in this visual essay were sourced from files downloaded by the author and retained for educational use in a Stanford course project.
+Public-facing credits live in the essay at **Part 9 → Image credits and licenses** (`#image-credits` in `gen_site.py`).
 
-## Prelude
-- `Michelle_Obama_2013_official_portrait.jpg` - Official White House portrait, photo by Chuck Kennedy, public domain.
-- `Nacwc_logo.png` - National Association of Colored Women's Clubs logo, educational fair use.
+When adding or replacing a photo, update both the figure caption in `gen_site.py` and the matching row in the `#image-credits` table.
 
-## Part 2: Dawn of Freedom
-- `Women-riding-on-the-subway.jpeg` - Women riding on the subway in New York City, July 1958, Angelo Rizzuto, Library of Congress.
-- `Sunday_in_Little_Rock,_Ark.,_1935._(3109755087).jpg` - Ben Shahn, 1935, public domain.
+## Quick inventory (19 unique assets)
 
-## Part 3 and Part 4
-- `Nannie_Helen_Burroughs,_1879-_(LOC)_-_Flickr_-_The_Library_of_Congress.jpg` - Library of Congress photo.
-- `Madam_C._J._Walker_0268.jpg` - Wikimedia Commons archival portrait.
-- `women's activism 2.jpeg` - Downloaded historical activism image from author source set.
+| Image | Source | License |
+|-------|--------|---------|
+| Michelle Obama, 2013 | [White House / Wikimedia](https://commons.wikimedia.org/wiki/File:Michelle_Obama_2013_official_portrait.jpg) | Public domain |
+| Sojourner Truth, c. 1870 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Sojourner_Truth,_1870_(cropped,_restored).jpg) | Public domain |
+| Harriet Jacobs, 1894 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Gilbert_Studios_photograph_of_Harriet_Jacobs_(cropped).jpg) | Public domain |
+| Ida B. Wells-Barnett | [Wikimedia](https://commons.wikimedia.org/wiki/File:Mary_Garrity_-_Ida_B._Wells-Barnett_-_Google_Art_Project_-_restoration_crop.jpg) | Public domain |
+| Audre Lorde, 1980 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Audre_Lorde.jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| Christina Sharpe | [York University](https://profiles.laps.yorku.ca/profiles/cesharpe/) | Courtesy; educational use |
+| Suffrage parade, 1913 | [LOC](https://www.loc.gov/item/2016860201/) | Public domain |
+| NYC subway, 1958 | Angelo Rizzuto, [LOC](https://www.loc.gov/) | Public domain |
+| Little Rock church, 1935 | Ben Shahn, [LOC](https://www.loc.gov/) | Public domain |
+| Madam C. J. Walker | [Wikimedia](https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_0268.jpg) | Public domain |
+| Nannie Helen Burroughs | [LOC](https://www.loc.gov/) | Public domain |
+| NACWC seal | NACW | Fair use (identification) |
+| Celia Cruz, 1957 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg) | Public domain |
+| Woman's Peace Party platform, 1915 | [LOC Women of Protest](https://www.loc.gov/collections/women-of-protest/about-this-collection/) | Public domain |
+| Tougaloo Nine, 1961 | Tougaloo College Archives | Educational use |
+| Natural Type 4c hair | [Wikimedia](https://commons.wikimedia.org/wiki/File:Natural_Afro_-_hair_type_4c-_model_Gwyneth_Ellis.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| BPP Free Breakfast flyer, 1970 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Black_Panther_Party_Free_Breakfast.jpg) | Public domain |
+| #MeToo sign, NYC 2018 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Can_You_Hear_Me_Now%3F_-MeToo_(39787332552).jpg) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| WILPF emblem | [WILPF](https://www.wilpf.org/) | Fair use (identification) |
 
-## Part 5
-- `Celia_Cruz_1957_color.jpg` - Wikimedia Commons portrait.
-- `women's peace party.jpg` - Downloaded historical women's protest image from author source set.
-
-## Part 6
-- `tougaloo-nine.webp` - Tougaloo College Archives image via Smithsonian Magazine, educational use.
-- `Natural_Afro_-_hair_type_4c-_model_Gwyneth_Ellis.jpg` - Stephen Dickson, CC BY-SA 4.0.
-- `Black Panther Party 1.jpg` and `Black Panther Party 2.jpeg` - downloaded archival imagery from author source set.
-
-## Part 7
-- `Michelle_Obama_2013_official_portrait.jpg` - reused as modern political image.
-- `women's international league for peace and freedom.webp` - downloaded archival movement image.
-
-## Notes
-- WebP derivatives were generated locally using `cwebp` at quality 82.
-- This project is for non-commercial classroom use.
+WebP derivatives: `cwebp -q 82` from local JPEG/PNG masters in `website/assets/photos/`.

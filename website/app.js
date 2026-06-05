@@ -13,6 +13,10 @@
     muted: cssVar("--fg-muted"),
     rule: cssVar("--rule"),
     accent: cssVar("--accent"),
+    accentSoft: cssVar("--accent-soft"),
+    "chart-lfp": cssVar("--chart-lfp"),
+    "chart-nacw": cssVar("--chart-nacw"),
+    "chart-ba": cssVar("--chart-ba"),
   });
 
   const applyTheme = t => {
@@ -47,7 +51,7 @@
 
   const setChartDefaults = () => {
     const p = palette();
-    Chart.defaults.font.family = "Inter, -apple-system, system-ui, sans-serif";
+    Chart.defaults.font.family = '"Libre Franklin", -apple-system, system-ui, sans-serif';
     Chart.defaults.color = p.muted;
     Chart.defaults.borderColor = p.rule;
     Chart.defaults.plugins.legend.labels.color = p.fg;
@@ -97,10 +101,10 @@
         if (item.type === "band") {
           const x1 = scales.x.getPixelForValue(item.x1);
           const x2 = scales.x.getPixelForValue(item.x2);
-          ctx.fillStyle = item.fill || "rgba(127,47,31,0.08)";
+          ctx.fillStyle = item.fill || pal.accentSoft;
           ctx.fillRect(x1, chartArea.top, x2 - x1, chartArea.bottom - chartArea.top);
           ctx.fillStyle = item.color || pal.fg;
-          ctx.font = "600 11px Inter, sans-serif";
+          ctx.font = '600 11px "Libre Franklin", sans-serif';
           ctx.fillText(item.label || "", x1 + 6, chartArea.top + 14);
         } else if (item.type === "marker") {
           const x = scales.x.getPixelForValue(item.x);
@@ -113,7 +117,7 @@
           ctx.stroke();
           ctx.setLineDash([]);
           ctx.fillStyle = item.color || pal.fg;
-          ctx.font = "600 11px Inter, sans-serif";
+          ctx.font = '600 11px "Libre Franklin", sans-serif';
           ctx.fillText(item.label || "", x + 5, chartArea.top + 14 + (item.dy || 0));
         }
       });
@@ -239,22 +243,22 @@
   };
 
   const TIMELINE = [
-    { year: "1818", title: "Truth born", body: "Sojourner Truth enters the nineteenth century as a figure whose speech and image politics would outlive official archives." },
-    { year: "1861", title: "Jacobs publishes Incidents", body: "Harriet Jacobs documents concealment and proximity to violence as conditions of narrating freedom." },
-    { year: "1881", title: "Atlanta washerwomen strike", body: "Black women workers refuse exploitative labor terms in the postbellum city Hunter studies." },
-    { year: "1892", title: "Southern Horrors", body: "Ida B. Wells prints anti-lynching analysis as evidence against newspapers that dignified mob murder." },
-    { year: "1896", title: "NACW founded", body: "National organizing pairs uplift language with institution-building under Jim Crow governance." },
-    { year: "1900", title: "Burroughs names barriers", body: "How the Sisters Are Hindered tracks gendered obstacles inside Black political life." },
-    { year: "1909", title: "National Training School", body: "Burroughs builds educational infrastructure in Washington, D.C." },
-    { year: "1917", title: "Walker and national wealth", body: "Entrepreneurship makes Black women's economic imagination visible at scale." },
-    { year: "1929", title: "Larsen's Passing", body: "Fiction stages racial visibility as unstable performance with psychic costs." },
-    { year: "1955", title: "Montgomery and movement memory", body: "Organizers mobilize dignity politics and mass protest in public memory." },
-    { year: "1961", title: "Tougaloo Nine", body: "Student direct action links education, dignity, and anti-segregation politics." },
-    { year: "1977", title: "Combahee Statement", body: "Collective analysis refuses narrow scripts of respectability and visibility." },
-    { year: "1981", title: "Lorde on anger", body: "Audre Lorde reframes anger as insight rather than embarrassment." },
-    { year: "1991", title: "Anita Hill testimony", body: "Televised witnessing exposes racialized and gendered structures of disbelief." },
-    { year: "2013", title: "Obama official portrait", body: "National representation intensifies scrutiny of Black women's aesthetic competence." },
-    { year: "2024", title: "Sherald, American Sublime", body: "Portraiture and exhibition culture reroute who counts as a subject of the sublime." },
+    { year: "1818", title: "Truth born", body: "Sojourner Truth's life begins in slavery; her later cartes de visite and speeches outlast archives that recorded her as property." },
+    { year: "1861", title: "Jacobs publishes Incidents", body: "Harriet Jacobs prints seven years in a garret—concealment as the condition for narrating freedom under coercion." },
+    { year: "1881", title: "Atlanta washerwomen strike", body: "Black washerwomen strike for wage control; Hunter reads it as labor politics authored by women, not household footnote." },
+    { year: "1892", title: "Southern Horrors", body: "Ida B. Wells names victims and press lies in print, countering newspapers that called lynching honorable." },
+    { year: "1896", title: "NACW founded", body: "National Association of Colored Women federates clubs that pair uplift rhetoric with schools and mutual aid." },
+    { year: "1900", title: "Burroughs names barriers", body: "Nannie Helen Burroughs documents how sexism inside Black politics hindered women's leadership." },
+    { year: "1909", title: "National Training School", body: "Burroughs opens a Washington training school—deportment taught as defense against hostile gatekeepers." },
+    { year: "1917", title: "Walker and national wealth", body: "Madam C. J. Walker's hair-care empire makes Black women's grooming a national market—and a public spectacle." },
+    { year: "1929", title: "Larsen's Passing", body: "Nella Larsen's novel stages racial passing as intimacy and surveillance with psychic costs." },
+    { year: "1955", title: "Montgomery bus boycott", body: "Montgomery organizers mobilize dignity politics; domestic workers' labor underwrites mass protest." },
+    { year: "1961", title: "Tougaloo Nine", body: "Nine Tougaloo students sit in at a whites-only library wearing Sunday dress—respectability as tactical uniform." },
+    { year: "1977", title: "Combahee Statement", body: "Combahee River Collective names intersectional politics that narrow respectability scripts could not hold." },
+    { year: "1981", title: "Lorde on anger", body: "Audre Lorde argues anger against racism is information, not a flaw to manage for white comfort." },
+    { year: "1991", title: "Anita Hill testimony", body: "Anita Hill testifies before the Senate; televised disbelief shows credibility traps for Black women accusing powerful men." },
+    { year: "2013", title: "Obama official portrait", body: "Michelle Obama's White House portrait intensifies scrutiny of Black women's dress, competence, and composure." },
+    { year: "2024", title: "Sherald, American Sublime", body: "Amy Sherald's SFMOMA retrospective, including Breonna Taylor, links portraiture to mourning and delayed justice." },
   ];
 
   const renderTimeline = () => {
@@ -427,12 +431,13 @@
   };
 
   const wireTOC = () => {
-    const links = [...$$(".topnav a"), ...$$(".topnav-more-menu a")];
+    const links = [...$$(".topnav a")];
     const progressFill = document.getElementById("top-progress-fill");
     const indicatorText = document.getElementById("section-indicator-text");
     if (!links.length) return;
 
     const sectionOrder = [
+      "about",
       "argument-summary",
       "part1-question",
       "part2-antebellum",
@@ -445,8 +450,15 @@
       "conclusions",
       "sources",
     ];
-    const spyIds = ["hero", ...sectionOrder];
+    const spyIds = ["about", "hero", ...sectionOrder.slice(1, -1), "ask-anything", "sources"];
     const spySections = spyIds.map(id => document.getElementById(id)).filter(Boolean);
+    const navHrefForSection = sectionId => {
+      if (sectionId === "about") return "#about";
+      if (sectionId === "timeline") return "#timeline";
+      if (sectionId === "conclusions" || sectionId === "ask-anything") return "#conclusions";
+      if (sectionId === "sources") return "#sources";
+      return "#hero";
+    };
     const sectionLabelById = new Map(
       sectionOrder.map((id, idx) => {
         const h = document.querySelector(`#${CSS.escape(id)} h2`);
@@ -454,6 +466,7 @@
         return [id, `${idx + 1}/${sectionOrder.length} · ${title}`];
       })
     );
+    sectionLabelById.set("ask-anything", sectionLabelById.get("conclusions") ?? "Conclusion");
 
     const readingLineY = () => window.scrollY + window.innerHeight * 0.55;
 
@@ -485,14 +498,16 @@
         }
       }
 
+      const activeNavHref = navHrefForSection(activeId);
       links.forEach(l => {
-        const href = l.getAttribute("href");
-        l.classList.toggle("active", href === `#${activeId}` && activeId !== "hero");
+        l.classList.toggle("active", l.getAttribute("href") === activeNavHref);
       });
 
       if (indicatorText) {
         indicatorText.textContent =
-          activeId === "hero" ? "Intro" : sectionLabelById.get(activeId) ?? activeId;
+          activeId === "hero"
+            ? "Essay"
+            : sectionLabelById.get(activeId) ?? activeId;
       }
     };
 
@@ -510,43 +525,41 @@
       quote: "And ain't I a woman?",
       name: "Sojourner Truth",
       designation: "1851 · Akron convention",
-      faceSrc: "assets/photos/orbit-1.jpg",
-      faceAlt: "Historical photograph of Black women activists",
+      faceSrc: "assets/photos/portraits/sojourner-truth-1870.webp",
+      faceAlt: "Sojourner Truth, c. 1870",
+      credit: "Sojourner Truth, c. 1870. Wikimedia Commons, public domain.",
     },
     {
       quote: "I would rather drudge out my life on a cotton plantation, till the grave opened to give me rest, than to live with him without the rights of a wife.",
       name: "Harriet Jacobs",
       designation: "1861 · Incidents in the Life of a Slave Girl",
-      faceSrc: "assets/photos/orbit-2.jpg",
-      faceAlt: "Historical protest photograph used as visual proxy",
+      faceSrc: "assets/photos/portraits/harriet-jacobs-gilbert-studios.webp",
+      faceAlt: "Harriet Jacobs, Gilbert Studios portrait, 1894",
+      credit: "Gilbert Studios, Washington, D.C., 1894. Wikimedia Commons, public domain.",
     },
     {
       quote: "The way to right wrongs is to turn the light of truth upon them.",
       name: "Ida B. Wells",
       designation: "1892 · Southern Horrors",
-      faceSrc: "assets/photos/orbit-3.jpg",
-      faceAlt: "Women's activism historical photograph",
-    },
-    {
-      quote: "If Black women were free, it would mean that everyone else would have to be free since our freedom would necessitate the destruction of all the systems of oppression.",
-      name: "Combahee River Collective",
-      designation: "1977 · Statement",
-      faceSrc: "assets/photos/orbit-4.webp",
-      faceAlt: "Tougaloo Nine sit-in photograph",
+      faceSrc: "assets/photos/portraits/ida-b-wells-mary-garrity.webp",
+      faceAlt: "Ida B. Wells-Barnett portrait by Mary Garrity",
+      credit: "Mary Garrity, via Google Art Project. Wikimedia Commons, public domain.",
     },
     {
       quote: "My silences had not protected me. Your silence will not protect you.",
       name: "Audre Lorde",
       designation: "1980 · The Cancer Journals",
-      faceSrc: "assets/photos/orbit-5.jpg",
-      faceAlt: "Portrait with natural afro hairstyle",
+      faceSrc: "assets/photos/portraits/audre-lorde-1980.webp",
+      faceAlt: "Audre Lorde, Austin, Texas, 1980",
+      credit: "K. Kendall, 1980. Wikimedia Commons, CC BY 2.0.",
     },
     {
       quote: "I want a wake work that enacts an ethics of care as a practice of worrying the details and holding them close.",
       name: "Christina Sharpe",
       designation: "2016 · In the Wake",
-      faceSrc: "assets/photos/orbit-6.jpg",
-      faceAlt: "Michelle Obama official portrait",
+      faceSrc: "assets/photos/portraits/christina-sharpe-york.webp",
+      faceAlt: "Christina Sharpe, York University faculty portrait",
+      credit: "Faculty profile photograph. York University, profiles.laps.yorku.ca/profiles/cesharpe/",
     },
   ];
 
@@ -560,7 +573,6 @@
     const heroWrap = document.querySelector("#hero .hero-figure");
     const heroImg = heroWrap?.querySelector(".hero-photo");
     const films = $$(".section-visual-panel .section-bg-film");
-    const ambient = document.querySelector(".ambient-paths");
 
     const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
     let ticking = false;
@@ -614,11 +626,6 @@
         img.style.willChange = "transform";
         img.style.transform = `translate3d(0, ${ty.toFixed(2)}px, 0)`;
       });
-
-      if (ambient) {
-        const t = clamp(window.scrollY / maxScroll, 0, 1);
-        ambient.style.opacity = (0.03 + t * 0.035).toFixed(4);
-      }
     };
 
     const schedule = () => {
@@ -641,6 +648,7 @@
     const nameEl = document.getElementById("quote-orbit-name");
     const desigEl = document.getElementById("quote-orbit-designation");
     const quoteEl = document.getElementById("quote-orbit-quote");
+    const creditEl = document.getElementById("quote-orbit-credit");
     const dotsEl = document.getElementById("quote-orbit-dots");
     const btnPrev = document.getElementById("quote-orbit-prev");
     const btnNext = document.getElementById("quote-orbit-next");
@@ -673,6 +681,7 @@
       nameEl.textContent = s.name;
       desigEl.textContent = s.designation;
       quoteEl.textContent = `“${s.quote}”`;
+      if (creditEl) creditEl.textContent = s.credit || "";
       if (face && s.faceSrc) {
         face.src = s.faceSrc;
         face.alt = s.faceAlt || "";
@@ -743,12 +752,12 @@
           data: pts,
           fill: true,
           tension: 0.25,
-          paletteKey: "accent",
+          paletteKey: "chart-lfp",
           colorAlpha: "",
           backgroundAlpha: "28",
           borderWidth: 2,
           pointRadius: 3,
-          pointBackgroundColor: palette().accent,
+          pointBackgroundColor: palette()["chart-lfp"],
         },
       ];
       const chart = makeLineChart(heroCanvas, {
@@ -776,7 +785,7 @@
             label: "Estimated affiliated clubs",
             data: pts,
             maxBarThickness: 36,
-            paletteKey: "accent",
+            paletteKey: "chart-nacw",
             colorAlpha: "",
             backgroundAlpha: "55",
             borderWidth: 1,
@@ -801,12 +810,12 @@
             data: pts,
             fill: true,
             tension: 0.25,
-            paletteKey: "accent",
+            paletteKey: "chart-ba",
             colorAlpha: "",
             backgroundAlpha: "28",
             borderWidth: 2,
             pointRadius: 3,
-            pointBackgroundColor: palette().accent,
+            pointBackgroundColor: palette()["chart-ba"],
           },
         ],
         yTitle: "Percent",

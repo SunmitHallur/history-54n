@@ -1,0 +1,16 @@
+{
+  "name": "history-54n",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/gateway": "^3.0.80",
+    "@ai-sdk/openai": "^2.0.0",
+    "@upstash/ratelimit": "^2.0.5",
+    "@upstash/redis": "^1.34.3",
+    "ai": "^6.0.116"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

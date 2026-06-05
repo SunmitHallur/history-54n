@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "title": "Guided walkthrough",
+  "steps": [
+    {
+      "id": "about",
+      "anchor": "#about",
+      "title": "About this project",
+      "narration": "Why I built this site: class readings on Sherald, Hill, and Jacobs showed Black women's interior lives getting reduced to respectability performance or silence.",
+      "highlight": "#about",
+      "suggestedQuestions": ["Who wrote this essay?", "Why is this a website?"]
+    },
+    {
+      "id": "hero",
+      "anchor": "#hero",
+      "title": "What She Did Not Say",
+      "narration": "Thesis: dissemblance hid interior life under surveillance; respectability was its public face. Michelle Obama's portrait and the labor-force chart anchor the claim in image and data.",
+      "highlight": "#hero",
+      "suggestedQuestions": ["What is this essay about?", "What is dissemblance?"]
+    },
+    {
+      "id": "argument-summary",
+      "anchor": "#argument-summary",
+      "title": "Argument summary",
+      "narration": "Shield (Hine), cage and key (Higginbotham), refusal (Davis, Combahee, Sharpe)—three claims to test against each photograph and source.",
+      "highlight": "#argument-summary",
+      "suggestedQuestions": ["Summarize the thesis in three sentences.", "What are shield, cage, and refusal?"]
+    },
+    {
+      "id": "part1-question",
+      "anchor": "#part1-question",
+      "title": "The question",
+      "narration": "Whose interior can history see when courts read composure as consent? Hine's shield and Higginbotham's respectability are the two lenses.",
+      "highlight": "#part1-question",
+      "suggestedQuestions": ["What question drives this essay?", "Why focus on photographs?"]
+    },
+    {
+      "id": "part2-antebellum",
+      "anchor": "#part2-antebellum",
+      "title": "Antebellum: Jacobs and the garret",
+      "narration": "Jacobs hid seven years above her enslaver's store, then published. Miles's sack and Painter's soul murder show what archives miss when they record property, not interior life.",
+      "highlight": "#part2-antebellum",
+      "suggestedQuestions": ["Who is Harriet Jacobs?", "How does the garret illustrate dissemblance?"]
+    },
+    {
+      "id": "part3-freedom",
+      "anchor": "#part3-freedom",
+      "title": "Freedom: Walker, clubs, and NACW",
+      "narration": "After emancipation: washerwomen strikes, Walker entrepreneurship, Burroughs schools, and NACW club growth—respectability as leverage inside Jim Crow.",
+      "highlight": "#part3-freedom",
+      "suggestedQuestions": ["What is respectability politics?", "What does the NACW chart show?"]
+    },
+    {
+      "id": "timeline",
+      "anchor": "#timeline",
+      "title": "Timeline",
+      "narration": "Sixteen dates from Truth's birth to Sherald's 2024 retrospective. Each card links one event to visibility, labor, or testimony.",
+      "highlight": "#timeline",
+      "suggestedQuestions": ["What does the timeline cover?", "What happened in 1892 on the timeline?"]
+    },
+    {
+      "id": "part4-activism",
+      "anchor": "#part4-activism",
+      "title": "Activism: Wells and the lynching script",
+      "narration": "Wells printed names and dates against lynching apologias. She calibrated tone for readers trained to punish Black women for sounding too angry or too calm.",
+      "highlight": "#part4-activism",
+      "suggestedQuestions": ["Who is Ida B. Wells?", "What is the lynching script?"]
+    },
+    {
+      "id": "part5-blues",
+      "anchor": "#part5-blues",
+      "title": "Blues legacies",
+      "narration": "Davis reads blueswomen naming desire and violence uplift sermons smoothed over. Larsen and Hall's Passing update dissemblance for fiction and film.",
+      "highlight": "#part5-blues",
+      "suggestedQuestions": ["What does Angela Davis argue?", "How do blues relate to dissemblance?"]
+    },
+    {
+      "id": "part6-civilrights",
+      "anchor": "#part6-civilrights",
+      "title": "Civil rights and Black feminism",
+      "narration": "Tougaloo Nine, natural hair, McGuire on assault testimony, Baker's organizing, Combahee, Lorde on anger—four pressures on what Black women could say aloud.",
+      "highlight": "#part6-civilrights",
+      "suggestedQuestions": ["What is the Combahee River Collective?", "How does Lorde use anger?"]
+    },
+    {
+      "id": "part7-contemporary",
+      "anchor": "#part7-contemporary",
+      "title": "Contemporary credibility traps",
+      "narration": "Undertreated pain, adultified Black girls, Anita Hill and #MeToo, Sherald and Say Her Name—visibility without belief or repair.",
+      "highlight": "#part7-contemporary",
+      "suggestedQuestions": ["Why include Michelle Obama?", "What is the Say Her Name frame?"]
+    },
+    {
+      "id": "conclusions",
+      "anchor": "#conclusions",
+      "title": "Conclusions",
+      "narration": "Shield, cage, refusal—then five quoted voices. When a source sounds too neat, check the gap between performance and interiority.",
+      "highlight": "#conclusions",
+      "suggestedQuestions": ["Remember one sentence.", "What are the main findings?"]
+    },
+    {
+      "id": "sources",
+      "anchor": "#sources",
+      "title": "Sources",
+      "narration": "Bibliography, chart data (Goldin, Census, BLS), and image credits with licenses.",
+      "highlight": "#sources",
+      "suggestedQuestions": ["What readings does this essay use?", "What data do you use?"]
+    }
+  ]
+}

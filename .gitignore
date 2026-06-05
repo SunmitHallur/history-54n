@@ -3,5 +3,8 @@ __pycache__/
 *.pyc
 .Python
 .env
+.env.local
 .venv/
+node_modules/
 *.pdf
+.vercel

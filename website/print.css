@@ -6,19 +6,24 @@
 
   :root {
     color-scheme: light;
+    --bg: #fff;
+    --fg: #1c1814;
+    --fg-muted: #444;
+    --rule: #ccc;
+    --accent: #5a3d5c;
   }
 
   body {
     background: #fff !important;
-    color: #111 !important;
+    color: #1c1814 !important;
+    font-family: "Newsreader", Georgia, serif;
     font-size: 12pt;
     line-height: 1.4;
   }
 
   .topbar,
-  .arg-breadcrumb,
   .section-indicator,
-  .ambient-paths,
+  .ambient-grain,
   .section-bg-film,
   .section-bridge,
   .ghost-btn,
@@ -31,6 +36,7 @@
   #hero,
   #timeline,
   #conclusions,
+  #about,
   #sources {
     break-inside: avoid;
     page-break-inside: avoid;
@@ -43,7 +49,7 @@
 
   .card,
   figure.card {
-    border: 1px solid #ccc !important;
+    border: 1px solid #b8a894 !important;
     box-shadow: none !important;
     background: #fff !important;
   }
@@ -55,21 +61,22 @@
   figcaption,
   .chart-caveat,
   .card-sub {
+    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
     font-size: 10.5pt !important;
     line-height: 1.35 !important;
   }
 
   a {
-    color: #111 !important;
+    color: #1c1814 !important;
     text-decoration: underline !important;
   }
 
   .title,
   .section-head h2,
   .argument-summary h2 {
-    background: none !important;
-    color: #111 !important;
-    -webkit-text-fill-color: #111 !important;
+    color: #1c1814 !important;
+    border-color: #5a3d5c !important;
+    -webkit-text-fill-color: #1c1814 !important;
   }
 
   a[href^="http"]::after {
