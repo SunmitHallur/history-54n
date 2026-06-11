@@ -64,7 +64,7 @@ HTML = r'''<!DOCTYPE html>
         <p class="eyebrow">Final Project · History 54N · Spring 2026</p>
         <h1 class="title">What She Did Not Say</h1>
         <p class="hero-thesis-pull">
-          Black women often looked open while guarding what exposure could cost them—Darlene Clark Hine called that dissemblance. Uplift dress and deportment were the public layer Higginbotham names respectability politics: leverage inside Jim Crow that could also discipline from within. I pair photographs, blues, pamphlets, and testimony from 1818 to 2024 to separate what was performed for spectators from what was withheld, and to show where courts and cameras mistook the performance for the whole person.
+          Black women often looked open while guarding what exposure could cost them—Darlene Clark Hine called that dissemblance. Neat dress and composed bearing were the public side of what Higginbotham calls respectability politics—a strategy that could win schools and credibility under Jim Crow, but could also judge and punish Black women from within. I pair photographs, blues, pamphlets, and testimony from 1818 to 2024 to separate what was performed for spectators from what was withheld, and to show where courts and cameras mistook the performance for the whole person.
         </p>
         <div class="meta-row">
           <a class="ghost-btn hero-cta-primary" href="#part2-antebellum"><span class="ghost-btn__text">Start with Part 2 ↓</span></a>
