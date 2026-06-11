@@ -91,7 +91,7 @@ HTML = r'''<!DOCTYPE html>
 
     <section id="argument-summary" class="argument-summary" aria-label="What this essay argues">
       <h2>What this essay argues</h2>
-      <p>Dissemblance functioned as a <strong>shield</strong> when sexualized surveillance made interior life dangerous to show (Hine 1989). Respectability worked as <strong>cage and key</strong>: Baptist clubwomen and educators used moral language to demand schools and votes, but the same standards could punish women who failed the performance (Higginbotham 1993). Blues lyrics, movement manifestos, and contemporary portraiture mark <strong>refusal</strong> when uplift rhetoric could not name desire, violence, or anger directly (Davis 1998; CRC 1977; Sharpe 2023).</p>
+      <p>Black women survived surveillance by performing openness while guarding their interior lives. That concealment was a <strong>shield</strong> against a world that read composure as consent; respectability was its <strong>cage and key</strong>, the same moral language that won schools and votes also punishing any woman who fell short of it. What looks like silence in the archive is really <strong>refusal</strong>&mdash;and reading it that way restores the desire, violence, and anger these women were never allowed to name aloud.</p>
     </section>
 
     <section id="part1-question" class="section section-question">
@@ -143,7 +143,7 @@ HTML = r'''<!DOCTYPE html>
               <p class="ground-step__label">Jacobs, 1894</p>
               <h3>Portrait after the garret</h3>
               <p>
-                Jacobs's studio portrait stages composed respectability decades after she hid above her enslaver's store (Jacobs 1861). Cooper Owens shows antebellum doctors treating enslaved women's bodies as teaching material—one reason concealment was not vanity but perimeter (Cooper Owens 2017).
+                Jacobs's studio portrait stages composed respectability decades after she hid above her enslaver's store (Jacobs 1861). Cooper Owens shows antebellum doctors treating enslaved women's bodies as teaching material&mdash;one reason concealment was not vanity but perimeter, my word for a defended boundary, a way of keeping the white medical gaze at a distance from a body the law treated as available (Cooper Owens 2017).
               </p>
             </div>
           </article>
@@ -224,7 +224,7 @@ HTML = r'''<!DOCTYPE html>
 
         <div class="prose narrow">
           <p>
-            LeFlouria shows emancipation's courts re-ensnaring Black women through vagrancy fines and leased convict labor (LeFlouria 2015). NACW club mottoes and Sunday hats operated beside that state violence: mutual aid and uplift language when employers and sheriffs refused simpler shelter.
+            NACW club mottoes and Sunday hats operated beside that state violence&mdash;mutual aid and uplift language when employers and sheriffs refused simpler shelter.
           </p>
         </div>
 
@@ -232,7 +232,7 @@ HTML = r'''<!DOCTYPE html>
           <div class="freedom-essay-pair__text">
             <h3 class="freedom-essay-pair__title" id="freedom-walker-heading">Spectacle and entrepreneurship</h3>
             <p>
-              Walker's portraits sell individual triumph, but Hunter and Salem situate her hair-care empire inside a national market that commodified Black women's grooming while rarely crediting their business logic (Hunter 1997; Salem 1990). Presentation was inventory—bodies staged for spectators who mistook the image for motive.
+              Walker's portraits sell individual triumph, but Hunter and Salem situate her hair-care empire inside a national market that commodified Black women's grooming while rarely crediting their business logic (Hunter 1997; Salem 1990). Presentation was inventory&mdash;bodies staged for spectators. White audiences mistook the carefully built public image for Black women's actual intentions and inner lives, never seeing the strategic, protective work the presentation was doing.
             </p>
           </div>
           <figure class="freedom-essay-pair__fig">
@@ -245,7 +245,7 @@ HTML = r'''<!DOCTYPE html>
           <div class="freedom-essay-pair__text">
             <h3 class="freedom-essay-pair__title" id="freedom-burroughs-heading">Schools, clubs, and collective defense</h3>
             <p>
-              Burroughs and the NACW built schools and federated clubs that taught deportment as collective defense—training women to pass hostile gatekeepers when courts and employers offered no simpler shelter (Salem 1990; Hunter 1997).
+              Burroughs and the NACW built schools and federated clubs that taught deportment as collective defense&mdash;training women to pass the white employers, landlords, and courts who decided their wages, housing, and credibility, when no simpler shelter existed (Salem 1990; Hunter 1997).
             </p>
           </div>
           <figure class="freedom-essay-pair__fig">
@@ -322,7 +322,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div class="prose narrow">
         <p>
-          Wells had to calibrate tone for readers trained on racist tropes: too angry and she lost sympathy; too detached and she seemed unmoved by murder (Wells 1892). Activist portraits from the same era worked the same way—clothing and posture purchased seriousness before belief (Bederman 1995).
+          Wells did not calibrate her tone. She was direct, fearless, and unapologetic: she exposed what she called the &ldquo;threadbare lie&rdquo; that Black men were raping white women, showed how consensual relationships were recast as rape once discovered by white fathers, brothers, or husbands, and insisted that Black women were the ones being violated (Wells 1892). She urged boycotts, migration out of the South, and the right to bear arms in self-defense&mdash;and when Memphis ran her out for her writing, she kept publishing anyway.
         </p>
       </div>
       <div class="grid-2">
@@ -345,19 +345,15 @@ HTML = r'''<!DOCTYPE html>
         <p class="section-step">Part 5</p>
         <h2>The Blues and Passing: Dissemblance set to music and fiction</h2>
         <p class="section-lede">
-          Davis reads blueswomen naming desire, betrayal, and violence in lyrics that church uplift often circled indirectly (Davis 1998). Larsen's <em>Passing</em> treats racial passing as dissemblance with psychic costs when intimacy and surveillance collide (Larsen 1929). Hall's 2021 film tightens those gazes for viewers used to being watched (Hall 2021).
+          Davis reads blueswomen naming desire, betrayal, and violence in lyrics that church uplift often circled indirectly (Davis 1998). On stage, blues performance worked as dissemblance in both directions: lyrics could name pain, desire, and resistance plainly, while persona, metaphor, and the frame of the song let the singer reveal and conceal at once&mdash;keeping her interior life shielded even as she spoke. Larsen's <em>Passing</em> treats racial passing as dissemblance with psychic costs when intimacy and surveillance collide (Larsen 1929). Hall's 2021 film tightens those gazes for viewers used to being watched (Hall 2021).
         </p>
       </div>
       <div class="prose narrow">
         <p>
-          The 1915 Peace Party platform shows how respectability language crossed national borders in women's reform circles—the same era blueswomen were naming what reform speeches smoothed over (Davis 1998). Cruz's 1957 portrait marks later performance cultures that carried similar tensions between public image and private claim.
+          The 1915 Peace Party platform shows how respectability language crossed national borders in women's reform circles&mdash;the same era blueswomen were naming what reform speeches smoothed over (Davis 1998).
         </p>
       </div>
       <div class="grid-2">
-        <figure class="card">
-          <picture><source srcset="assets/photos/blues/Celia_Cruz_1957_color.webp" type="image/webp" /><img src="assets/photos/blues/Celia_Cruz_1957_color.jpg" alt="Celia Cruz 1957" loading="lazy" decoding="async" /></picture>
-          <figcaption>Celia Cruz, 1957. <a href="https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg">Wikimedia Commons</a>, public domain.</figcaption>
-        </figure>
         <figure class="card">
           <picture><source srcset="assets/photos/blues/womens-peace-party.webp" type="image/webp" /><img src="assets/photos/blues/womens-peace-party.jpg" alt="Woman's Peace Party preamble and platform, Washington, January 1915" loading="lazy" decoding="async" /></picture>
           <figcaption>Woman&rsquo;s Peace Party platform, Washington, D.C., January 1915. Historical document; see <a href="https://www.loc.gov/collections/women-of-protest/about-this-collection/">Library of Congress, Women of Protest</a>.</figcaption>
@@ -622,11 +618,6 @@ HTML = r'''<!DOCTYPE html>
                 <td>NACWC seal (&ldquo;Lifting As We Climb&rdquo;)</td>
                 <td>National Association of Colored Women&rsquo;s Clubs</td>
                 <td class="credits-license">Fair use (identification)</td>
-              </tr>
-              <tr>
-                <td>Celia Cruz, 1957</td>
-                <td><a href="https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg" rel="noopener noreferrer">Wikimedia Commons</a></td>
-                <td class="credits-license">Public domain</td>
               </tr>
               <tr>
                 <td>Woman&rsquo;s Peace Party platform, January 1915</td>

@@ -4,7 +4,7 @@ Public-facing credits live in the essay at **Part 9 → Image credits and licens
 
 When adding or replacing a photo, update both the figure caption in `gen_site.py` and the matching row in the `#image-credits` table.
 
-## Quick inventory (19 unique assets)
+## Quick inventory (18 unique assets)
 
 | Image | Source | License |
 |-------|--------|---------|
@@ -20,7 +20,6 @@ When adding or replacing a photo, update both the figure caption in `gen_site.py
 | Madam C. J. Walker | [Wikimedia](https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_0268.jpg) | Public domain |
 | Nannie Helen Burroughs | [LOC](https://www.loc.gov/) | Public domain |
 | NACWC seal | NACW | Fair use (identification) |
-| Celia Cruz, 1957 | [Wikimedia](https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg) | Public domain |
 | Woman's Peace Party platform, 1915 | [LOC Women of Protest](https://www.loc.gov/collections/women-of-protest/about-this-collection/) | Public domain |
 | Tougaloo Nine, 1961 | Tougaloo College Archives | Educational use |
 | Natural Type 4c hair | [Wikimedia](https://commons.wikimedia.org/wiki/File:Natural_Afro_-_hair_type_4c-_model_Gwyneth_Ellis.jpg) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |

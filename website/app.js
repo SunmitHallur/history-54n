@@ -249,7 +249,7 @@
     { year: "1892", title: "Southern Horrors", body: "Ida B. Wells names victims and press lies in print, countering newspapers that called lynching honorable." },
     { year: "1896", title: "NACW founded", body: "National Association of Colored Women federates clubs that pair uplift rhetoric with schools and mutual aid." },
     { year: "1900", title: "Burroughs names barriers", body: "Nannie Helen Burroughs documents how sexism inside Black politics hindered women's leadership." },
-    { year: "1909", title: "National Training School", body: "Burroughs opens a Washington training school—deportment taught as defense against hostile gatekeepers." },
+    { year: "1909", title: "National Training School", body: "Burroughs opens a Washington training school—deportment taught as defense against white employers, landlords, and courts." },
     { year: "1917", title: "Walker and national wealth", body: "Madam C. J. Walker's hair-care empire makes Black women's grooming a national market—and a public spectacle." },
     { year: "1929", title: "Larsen's Passing", body: "Nella Larsen's novel stages racial passing as intimacy and surveillance with psychic costs." },
     { year: "1955", title: "Montgomery bus boycott", body: "Montgomery organizers mobilize dignity politics; domestic workers' labor underwrites mass protest." },
