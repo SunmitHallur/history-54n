@@ -353,7 +353,7 @@ HTML = r'''<!DOCTYPE html>
           The 1915 Peace Party platform shows how respectability language crossed national borders in women's reform circles&mdash;the same era blueswomen were naming what reform speeches smoothed over (Davis 1998).
         </p>
       </div>
-      <div class="grid-2">
+      <div class="grid-2 grid-2--single-centered">
         <figure class="card">
           <picture><source srcset="assets/photos/blues/womens-peace-party.webp" type="image/webp" /><img src="assets/photos/blues/womens-peace-party.jpg" alt="Woman's Peace Party preamble and platform, Washington, January 1915" loading="lazy" decoding="async" /></picture>
           <figcaption>Woman&rsquo;s Peace Party platform, Washington, D.C., January 1915. Historical document; see <a href="https://www.loc.gov/collections/women-of-protest/about-this-collection/">Library of Congress, Women of Protest</a>.</figcaption>
@@ -548,7 +548,7 @@ HTML = r'''<!DOCTYPE html>
       </div>
       <div id="image-credits" class="card image-credits-card">
         <h3 class="card-title">Image credits and licenses</h3>
-        <p class="image-credits-lede">Source, credit, and license for each image in the essay. WebP copies were generated locally for faster loading.</p>
+        <p class="image-credits-lede">Source, credit, and license for each image in the essay.</p>
         <div class="credits-table-wrap" tabindex="0" role="region" aria-label="Image credits table">
           <table class="credits-table">
             <thead>
