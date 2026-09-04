@@ -7,7 +7,7 @@ What She Did Not Say: Dissemblance, Respectability, and the Inner Lives of Black
 This project is a narrative-first visual essay built for History 54N at Stanford. It traces dissemblance and respectability across Black women's history from slavery to the present. Photographs, a sixteen-card timeline, and three descriptive charts support the argument without replacing interpretation.
 
 ## Live site
-**Primary (Essay Guide + LLM Q&A):** deploy to Vercel from this repo (`outputDirectory`: `website`). Example URL: `https://history-54n.vercel.app` (set after linking).
+**Primary (Essay Guide + LLM Q&A):** https://sunmithallur.com/history54N/ (legacy `https://history-54n.vercel.app` redirects here).
 
 **Static fallback (no `/api/chat`):** https://sunmithallur.github.io/history-54n/
 
