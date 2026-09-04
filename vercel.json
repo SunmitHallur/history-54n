@@ -4,6 +4,25 @@
   "installCommand": "npm install --omit=dev",
   "buildCommand": "echo 'Static site + optional API'",
   "outputDirectory": "website",
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "history-54n.vercel.app" }],
+      "destination": "https://sunmithallur.com/history54N/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!__origin).*)",
+      "has": [{ "type": "host", "value": "history-54n.vercel.app" }],
+      "destination": "https://sunmithallur.com/history54N/:path",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/__origin", "destination": "/index.html" },
+    { "source": "/__origin/", "destination": "/index.html" },
+    { "source": "/__origin/:path*", "destination": "/:path*" }
+  ],
   "headers": [
     {
       "source": "/",

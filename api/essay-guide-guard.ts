@@ -36,6 +36,8 @@ function allowedHostnames(): string[] {
   const defaults = [
     "history-54n.vercel.app",
     "history54n.vercel.app",
+    "sunmithallur.com",
+    "www.sunmithallur.com",
     "sunmithallur.github.io",
     "localhost",
     "127.0.0.1",
